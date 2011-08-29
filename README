@@ -1,0 +1,4 @@
+KALTURA PODCAST BLOCK
+=====================
+This block uses local/une_course_data and local/kaltura but it could be modified to exclude the use of those and allow a teacher
+to set a playlist id directly in the block settings.
