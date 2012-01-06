@@ -5,7 +5,7 @@ defined('MOODLE_INTERNAL') || die;
 if ($ADMIN->fulltree) {
 //settings to use to link to course meta stuff.
     $settings->add(new admin_setting_configtext('block_kalturapodcast_meta_category', get_string('podcastmetacategory', 'block_kalturapodcast'),
-                       get_string('podcastmetacategory_desc', 'block_kalturapodcast'), 'kaltura_podcast_cat', PARAM_ALPHANUMEXT));
+                       get_string('podcastmetacategory_desc', 'block_kalturapodcast'), 'kaltura_podcast_cat', PARAM_RAW));
 
     $settings->add(new admin_setting_configtext('block_kalturapodcast_player',
         get_string('player', 'block_kalturapodcast'), get_string('player_desc', 'block_kalturapodcast'), '1466432', PARAM_TEXT, 8));
